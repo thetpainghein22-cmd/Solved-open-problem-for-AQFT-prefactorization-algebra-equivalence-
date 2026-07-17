@@ -1,0 +1,59 @@
+```tex id="probtex"
+\begin{theorem}
+Let $M \in \Locrc$. The composite right Quillen functor
+\[
+(L_M \Phi_M)^* :
+\HK^W(M)
+\xrightarrow{L_M^*}
+\mathcal{L}_{\widehat{W}_M}\HK(M)
+\xrightarrow{\Phi_M^*}
+\mathcal{L}_{\widehat{W}_M}\CG(M)
+\]
+is a Quillen equivalence under the time-slice axiom.
+\end{theorem}
+
+<cite id="N1">
+<type>Definition</type>
+<source>Benini--Carmona--Grant-Stuart--Schenkel, On the equivalence of AQFTs and prefactorization algebras</source>
+<locator>Definition 2.3</locator>
+<exact_statement>
+The restricted spacetime category $\Locrc$ is the wide subcategory of $\Loc$ whose morphisms are orientation- and time-orientation-preserving isometric open embeddings with causally convex image that are either Cauchy or relatively compact.
+</exact_statement>
+</cite>
+
+<cite id="N2">
+<type>Definition</type>
+<source>Benini--Carmona--Grant-Stuart--Schenkel, On the equivalence of AQFTs and prefactorization algebras</source>
+<locator>Definition 2.11</locator>
+<exact_statement>
+For each $M \in \Locrc$, $OM \subseteq \OLocrc$ is the suboperad with objects the causally convex opens $U \subseteq M$ which are either Cauchy or relatively compact; $HK(M) := \Alg_{OM}(T)$; and $HKW(M)$ is the full subcategory of AQFTs satisfying the time-slice axiom.
+</exact_statement>
+</cite>
+
+<cite id="N3">
+<type>Definition</type>
+<source>Benini--Carmona--Grant-Stuart--Schenkel, On the equivalence of AQFTs and prefactorization algebras</source>
+<locator>Definition 2.18</locator>
+<exact_statement>
+For each $M \in \Locrc$, $tPM \subseteq tPLocrc$ is the suboperad whose objects are the causally convex opens $U \subseteq M$ which are either Cauchy or relatively compact, and whose operations are time-orderable inclusion tuples; $CG(M) := \Alg_{tPM}(T)$.
+</exact_statement>
+</cite>
+
+<cite id="N4">
+<type>Definition</type>
+<source>Benini--Carmona--Grant-Stuart--Schenkel, On the equivalence of AQFTs and prefactorization algebras</source>
+<locator>Definition 3.1</locator>
+<exact_statement>
+The comparison multifunctor $\Phi : tPLocrc \to OLocrc$ induces a pullback functor $\Phi^*$ between AQFTs and prefactorization algebras.
+</exact_statement>
+</cite>
+
+<cite id="N5">
+<type>Open Problem</type>
+<source>Benini--Carmona--Grant-Stuart--Schenkel, On the equivalence of AQFTs and prefactorization algebras</source>
+<locator>Open Problem 5.6</locator>
+<exact_statement>
+Prove that $(L_M \Phi_M)^*$ is a right Quillen equivalence for all $M \in \Locrc$.
+</exact_statement>
+</cite>
+```
