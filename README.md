@@ -7,3 +7,9 @@ Additionally, i verified the proof via proofQED/QED and dropped the output and i
 the output was useful for clear natural language readability of the steps and it's advised to read the pull request for instructions regarding the QED verification branch of the repository. Each axiom Cx for a number x in the challenge file
 correspond to citation Cx in the PyMuPDF script but technical cases where different values of x or nlab citations  match 
 are explained by comments in the challenge file. I claim to solve the open problem in term of knowledge. however, i do not claim to have formalized the full problem statement in lean. This is not an issue as explained in the comment in the challenge file before the problem is stated as we can simply replace the last step of the proof with stronger definition once mathlib develop large enough to state the full definition of quillen equivalence. 
+## How to Cite
+
+If you use this software in your research, please cite our SoftwareX paper:
+
+> Or Like That, "Solved-open-problem-for-AQFT-prefactorization-algebra-equivalence-" *SoftwareX*, (Under Review / Forthcoming).
+> 
